@@ -1,9 +1,15 @@
+import gitlogo from "../gitblk.png"
+import gmaillogo from "../gmaillogo.png"
+
 const Contacts = () => {
     return (
 <div>
     <h1>Contact me:</h1>
 
-    <p>github</p><p>gmail</p>
+    <p>Github</p>
+    <img src={gitlogo} alt="git logo" />
+    <p>Gmail</p>
+    <img src={gmaillogo} alt="gmail logo" />
 </div>
     )
 }
