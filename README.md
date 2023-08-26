@@ -1,4 +1,6 @@
 # Personal Portfolio Notes
 My Thought Processes
 ## Thought Process
-a lot of work
+Work top to bottom
+make sure everything works
+Make a little animation happen
