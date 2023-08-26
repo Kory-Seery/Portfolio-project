@@ -20,7 +20,13 @@ const Home = () => {
             sequence={[
                 "Web Developer 💻",
                 1000,
+                "Hockey player 🏒",
+                1000,
+                "Entrepreneur 💼",
+                1000,
                 "Gamer 🎮",
+                1000,
+                "CSS Enthusiast 🤯",
                 1000,
                 "Brother 😎",
                 1000
@@ -46,7 +52,9 @@ const Home = () => {
 }
 
 const Name = styled.h1`
-
+font-family: 'Charm', cursive;
+font-size: 300%;
+text-shadow: 2px 1px  purple;
 `
 
 const Paragraph = styled.p`
@@ -61,14 +69,16 @@ text-align: center;
 `
 
 const Umbrella = styled.img`
-width: 600px;
-height: 600px;
+max-width: 500px;
+max-height: 500px;
+width: 50%;
 border-radius: 600px;
-margin-top: 70px;
+margin-top: 100px;
+box-shadow: 0px 0px 40px purple;
 `
 
 const Homepage = styled.div`
-padding-bottom: 20px;
+padding-bottom: 60px;
 background-color: rgb(206, 206, 206);
 `
 

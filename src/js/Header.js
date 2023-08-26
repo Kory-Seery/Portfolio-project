@@ -29,7 +29,9 @@ background-color: black;
 const Homelink = styled(Link)`
 color: white;
 text-decoration: none;
-padding: 15px;
+padding: 1%;
+margin: auto;
+text-align: center;
 &:hover {
     background-color: purple;
 }
@@ -38,7 +40,9 @@ padding: 15px;
 const Aboutpage = styled(Link)`
 color: white;
 text-decoration: none;
-padding: 15px;
+padding: 1%;
+margin: auto;
+text-align: center;
 &:hover {
     background-color: purple;
 }
@@ -47,7 +51,9 @@ padding: 15px;
 const Projectpage = styled(Link)`
 color: white;
 text-decoration: none;
-padding: 15px;
+padding: 1%;
+margin: auto;
+text-align: center;
 &:hover {
     background-color: purple;
 }
@@ -56,7 +62,9 @@ padding: 15px;
 const Contactspage = styled(Link)`
 color: white;
 text-decoration: none;
-padding: 15px;
+padding: 1%;
+margin: auto;
+text-align: center;
 &:hover {
     background-color: purple;
 }
