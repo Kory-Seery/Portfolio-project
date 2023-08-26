@@ -46,7 +46,7 @@ const Home = () => {
 }
 
 const Name = styled.h1`
-margin-top: 20px;
+
 `
 
 const Paragraph = styled.p`
@@ -64,7 +64,7 @@ const Umbrella = styled.img`
 width: 600px;
 height: 600px;
 border-radius: 600px;
-margin-top: 50px;
+margin-top: 70px;
 `
 
 const Homepage = styled.div`

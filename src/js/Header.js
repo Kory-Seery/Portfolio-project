@@ -17,27 +17,49 @@ const Header = () => {
 }
 
 const Everything = styled.div`
-
+position: fixed;
+width: 100%;
 `
 
 const Linkstoplaces = styled.div`
-
+display: flex;
+background-color: black;
 `
 
 const Homelink = styled(Link)`
-display: inline-block;
+color: white;
+text-decoration: none;
+padding: 15px;
+&:hover {
+    background-color: purple;
+}
 `
 
 const Aboutpage = styled(Link)`
-display: inline-block;
+color: white;
+text-decoration: none;
+padding: 15px;
+&:hover {
+    background-color: purple;
+}
 `
 
 const Projectpage = styled(Link)`
-display: inline-block;
+color: white;
+text-decoration: none;
+padding: 15px;
+&:hover {
+    background-color: purple;
+}
 `
 
 const Contactspage = styled(Link)`
-display: inline-block;
+color: white;
+text-decoration: none;
+padding: 15px;
+&:hover {
+    background-color: purple;
+}
 `
 
 export default Header
