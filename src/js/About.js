@@ -35,6 +35,20 @@ const About = () => {
         </Logophoto>
     <Descriptionofme>A little more about me I have 2 adorable pets a tuxedo cat and a blue merle australian shepard dog, when im not relaxing with them i love to play video games,
         listen to some music, make art or play hockey.</Descriptionofme>
+        <Me>
+    <Languages>
+        <Lang>Languages</Lang>
+        <Descriptionofme>English</Descriptionofme>
+        <Descriptionofme>French</Descriptionofme>
+    </Languages>
+    <Ethnicity>
+        <Lang>Ethnicity</Lang>
+        <Descriptionofme>Canadian</Descriptionofme>
+        <Descriptionofme>Quebquois</Descriptionofme>
+        <Descriptionofme>Part Italian</Descriptionofme>
+        <Descriptionofme>Part Irish</Descriptionofme>
+    </Ethnicity>
+    </Me>
 </Info>
 </Everythingabout>
     )
@@ -47,16 +61,18 @@ const Learnprogram = styled.p`
 font-style: italic;
 `
 const Logophoto = styled.div`
-`
 
+`
 const Pics = styled.img`
 padding-left: 10%;
 margin-left: auto;
 margin-right: auto;
 `
-
 const Aboutpage = styled.div`
-
+border-style: double;
+border-radius: 10000px;
+border-color: purple;
+background-color: rgb(206, 206, 206);;
 `
 const Everythingabout = styled.div`
 text-align: center;
@@ -65,5 +81,18 @@ padding-top: 50px;
 const Info = styled.div`
 margin-left: 30px;
 margin-right: 30px;
+`
+const Lang = styled.h3`
+
+`
+const Ethnicity = styled.div`
+
+`
+const Languages = styled.div`
+
+`
+const Me = styled.div`
+display: grid;
+grid-template-columns: auto auto;
 `
 export default About
