@@ -23,6 +23,7 @@ width: 100%;
 
 const Linkstoplaces = styled.div`
 display: flex;
+text-align: center;
 background-color: black;
 `
 

@@ -21,6 +21,7 @@ width: 100px;
 const All = styled.div`
 margin-top: -25px;
 text-align: center;
+width: 100%;
 `
 
 export default Contacts

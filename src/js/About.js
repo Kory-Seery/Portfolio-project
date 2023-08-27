@@ -76,7 +76,7 @@ background-color: rgb(206, 206, 206);;
 `
 const Everythingabout = styled.div`
 text-align: center;
-padding-top: 50px;
+padding-top: 70px;
 `
 const Info = styled.div`
 margin-left: 30px;

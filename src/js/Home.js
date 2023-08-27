@@ -63,6 +63,7 @@ margin-bottom: 30px;
 
 const Page = styled.div`
 text-align: center;
+width: 100%;
 `
 
 const Umbrella = styled.img`
@@ -77,6 +78,7 @@ box-shadow: 0px 0px 40px purple;
 const Homepage = styled.div`
 padding-bottom: 60px;
 background-color: rgb(206, 206, 206);
+width: 100%;
 `
 
 export default Home
