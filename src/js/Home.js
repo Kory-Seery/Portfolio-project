@@ -42,11 +42,11 @@ const Home = () => {
             </Paragraph>
         </div>    
         </Homepage>    
-        <Catagory>
+
             <About />
             <Projects />
             <Contacts /> 
-        </Catagory>
+
     </Page>
     )
 }
@@ -61,9 +61,6 @@ const Paragraph = styled.p`
 margin-bottom: 30px;
 `
 
-const Catagory = styled.div`
-
-`
 const Page = styled.div`
 text-align: center;
 `

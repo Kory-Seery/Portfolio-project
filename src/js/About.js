@@ -3,14 +3,25 @@ import Jspic from "../jsimg1.png"
 import reactpic from "../reactimg1.png"
 import csspic from "../cssimg1.png"
 import styled from "styled-components"
-import about from "../about me.png"
+import {TypeAnimation} from "react-type-animation"
 
 const About = () => {
     return (
-        <Everythingabout>
-            <Photodiv>
-            <Photo src={about} alt="Abouttittle" />
-            </Photodiv>
+<Everythingabout>
+            <Aboutpage>
+            <TypeAnimation
+            sequence={[
+                "About me",
+                5000,
+                "",
+                1000
+            ]}
+            wrapper="span"
+            speed={50}
+            style={{fontSize: '2em', display: 'inline-block'}}
+            repeat={Infinity}
+            />
+            </Aboutpage>
 <Info>   
     <Descriptionofme>I am a 19yr old with major goals. One of my major goals is to one day have
         my own company, hence why i entered at University of Concordia in the Web Development program.</Descriptionofme>
@@ -43,17 +54,13 @@ padding-left: 10%;
 margin-left: auto;
 margin-right: auto;
 `
-const Photo = styled.img`
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 50%;
-`
-const Photodiv = styled.div`
-background-color: rgb(57, 62, 70);
+
+const Aboutpage = styled.div`
+
 `
 const Everythingabout = styled.div`
 text-align: center;
+padding-top: 50px;
 `
 const Info = styled.div`
 margin-left: 30px;

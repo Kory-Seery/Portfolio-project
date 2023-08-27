@@ -4,19 +4,23 @@ import styled from "styled-components"
 
 const Contacts = () => {
     return (
-<div>
+<All>
     <h1>Contact me:</h1>
 
     <p>Github</p>
     <img src={gitlogo} alt="git logo" />
     <p>Gmail</p>
     <Gmailimg src={gmaillogo} alt="gmail logo" />
-</div>
+</All>
     )
 }
 
 const Gmailimg = styled.img`
-width: 100%;
+width: 100px;
+`
+const All = styled.div`
+margin-top: -25px;
+text-align: center;
 `
 
 export default Contacts

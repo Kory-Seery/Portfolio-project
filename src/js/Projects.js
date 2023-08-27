@@ -1,11 +1,23 @@
+import styled from "styled-components"
+
+
 const Projects = () => {
     return (
-<div>
-    <h1>Projects</h1>
-    
+<Holding>
+    <H1>Projects</H1>
     <p>Work I have done</p>
-</div>
+</Holding>
     )
 }
+
+const H1 = styled.h1`
+
+`
+
+const Holding = styled.div`
+margin-top: -25px;
+
+`
+
 
 export default Projects
