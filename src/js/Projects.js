@@ -16,7 +16,6 @@ const H1 = styled.h1`
 
 const Holding = styled.div`
 margin-top: -25px;
-
 `
 
 
