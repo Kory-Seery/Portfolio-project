@@ -4,6 +4,9 @@ import Nyanproject from "../vid.mp4"
 import Fruitproject from "../Fruit.mp4"
 import Frogproject from "../Frog.mp4"
 import HIMYMproject from "../HIMYM.mp4"
+import HTMLproject from "../HTML.mp4"
+import JSproject from "../First JS.mp4"
+import Signupproject from "../SignUp.mp4"
 
 const Projects = () => {
     return (
@@ -24,30 +27,48 @@ const Projects = () => {
     </Projectpage>
 <AllProjects>
     <Nyan>
-        <p>Nyan cat project</p>
+        <P>Nyan cat Project</P>
         <Video width="100%"  height="300px" controls="controls">
         <source src={Nyanproject} type="video/mp4" /></Video>
     </Nyan>
     <Fruits>
-        <p>Fruit project</p>
+        <P>Fruit Project</P>
         <Video width="100%"  height="300px" controls="controls">
         <source src={Fruitproject} type="video/mp4" /></Video>
     </Fruits>
     <Frogger>
-        <p>Great Frog Race project</p>
+        <P>Great Frog Race Project</P>
         <Video width="100%"  height="300px" controls="controls">
         <source src={Frogproject} type="video/mp4" /></Video>
     </Frogger>
     <HIMYM>
-    <p>How I Met Your Mother project </p>
+    <P>How I Met Your Mother Project </P>
         <Video width="100%"  height="300px" controls="controls">
         <source src={HIMYMproject} type="video/mp4" /></Video>
     </HIMYM>
+    <HTML>
+    <P> First HTML Project</P>   
+        <Video width="100%"  height="300px" controls="controls">
+        <source src={HTMLproject} type="video/mp4" /></Video>
+    </HTML>
+    <JS>
+    <P>First CSS Project</P>
+        <Video width="100%"  height="300px" controls="controls">
+        <source src={JSproject} type="video/mp4" /></Video> 
+    </JS>
+    <SignUp>
+    <P>Sign-Up Project</P>
+        <Video width="100%"  height="300px" controls="controls">
+        <source src={Signupproject} type="video/mp4" /></Video> 
+    </SignUp>
 </AllProjects>
 </Holding>
     )
 }
 
+const P = styled.p`
+
+`
 const Video = styled.video`
 max-width:500px;
 `
@@ -63,20 +84,37 @@ text-align: center;
 padding-top: 70px;
 `
 const Nyan = styled.div`
-
+border: double;
+margin-top: 50px;
 `
 const Fruits = styled.div`
-
+border: double;
+margin-top: 50px;
 `
 const Frogger = styled.div`
-
+border: double;
+margin-top: 50px;
 `
 const HIMYM = styled.div`
-
+border: double;
+margin-top: 50px;
+`
+const HTML = styled.div`
+border: double;
+margin-top: 50px;
+`
+const JS = styled.div`
+border: double;
+margin-top: 50px;
+`
+const SignUp =styled.div`
+border: double;
+margin-top: 50px;
 `
 const AllProjects = styled.div`
 display: grid;
 grid-template-columns: auto auto;
+z-index: 1;
 `
 
 export default Projects

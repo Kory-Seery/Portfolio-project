@@ -19,6 +19,7 @@ const Header = () => {
 const Everything = styled.div`
 position: fixed;
 width: 100%;
+z-index: 6;
 `
 
 const Linkstoplaces = styled.div`
