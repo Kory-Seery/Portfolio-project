@@ -1,5 +1,3 @@
-import gitlogo from "../gitblk.png"
-import gmaillogo from "../gmaillogo.png"
 import styled from "styled-components"
 import {TypeAnimation} from "react-type-animation"
 
@@ -20,14 +18,9 @@ const Contacts = () => {
             repeat={Infinity}
             />
     </Para>
-    <h1>Github
-    <Gmailimg src={gitlogo} alt="git logo" />
-    </h1>
-
+    <Infotocontact>
 <Wrap>
-        <h1>Gmail
-        <Gmailimg src={gmaillogo} alt="gmail logo" />
-        </h1>
+        <Meby>Gmail</Meby>
 <Form>
     <label>Full name:</label>
     <Information>
@@ -47,7 +40,7 @@ const Contacts = () => {
     </Footer>
 </Form>
 </Wrap>
-<p>Contact me by:</p>
+<Meby>Contact me by:</Meby>
 <div>
     <TypeAnimation
             sequence={[
@@ -62,19 +55,23 @@ const Contacts = () => {
             repeat={Infinity}
             />
 </div>
-
+</Infotocontact>
 </All>
     )
 }
 
-const Gmailimg = styled.img`
-width: 100px;
+
+const Meby = styled.h1`
+font-family: 'Charm', cursive;
+font-size: 300%;
+text-shadow: 2px 1px  purple;
 `
 const All = styled.div`
-padding-top: 40px;
+padding-top: 70px;
 text-align: center;
 width: 100%;
-height: 80vh;
+height: 94vh;
+background-color: rgb(206, 206, 206);
 `
 const Form =styled.div`
 
