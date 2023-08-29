@@ -60,7 +60,9 @@ const Contacts = () => {
     )
 }
 
+const Infotocontact = styled.div`
 
+`
 const Meby = styled.h1`
 font-family: 'Charm', cursive;
 font-size: 300%;
