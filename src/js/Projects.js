@@ -82,6 +82,7 @@ background-color: rgb(206, 206, 206);
 const Holding = styled.div`
 text-align: center;
 padding-top: 70px;
+margin-bottom: 50px;
 `
 const Nyan = styled.div`
 border: double;
