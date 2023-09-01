@@ -43,10 +43,10 @@ const About = () => {
     </Languages>
     <Ethnicity>
         <Lang>Ethnicity</Lang>
-        <Descriptionofme>Canadian</Descriptionofme>
-        <Descriptionofme>Quebquois</Descriptionofme>
-        <Descriptionofme>Part Italian</Descriptionofme>
-        <Descriptionofme>Part Irish</Descriptionofme>
+        <Descriptionofme>Canadian 🟥🍁🟥</Descriptionofme>
+        <Descriptionofme>Quebecois 🟦⚜️🟦 </Descriptionofme>
+        <Descriptionofme>Part Italian 🟩⬜🟥</Descriptionofme>
+        <Descriptionofme>Part Irish 🟩⬜🟧</Descriptionofme>
     </Ethnicity>
     </Me>
 </Info>

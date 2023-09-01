@@ -41,7 +41,7 @@ const Contacts = () => {
 </Form>
 </Wrap>
 <Meby>Contact me by:</Meby>
-<div>
+<Infobottom>
     <TypeAnimation
             sequence={[
                 "Gmail: kory.seery23@gmail",
@@ -54,12 +54,17 @@ const Contacts = () => {
             style={{fontSize: '2em', display: 'inline-block'}}
             repeat={Infinity}
             />
-</div>
+</Infobottom>
 </Infotocontact>
 </All>
     )
 }
 
+const Infobottom = styled.div`
+@media (max-width: 600px) {
+    font-size: 10px;
+}
+`
 const Infotocontact = styled.div`
 
 `
