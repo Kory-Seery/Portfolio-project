@@ -1,3 +1,6 @@
+# Link to my portfolio
+https://kory-seery-portfolio.vercel.app/
+
 # Personal Portfolio Notes
 My Thought Processes
 
