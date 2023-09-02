@@ -56,6 +56,9 @@ const About = () => {
 
 const Descriptionofme = styled.p`
 font-style: italic;
+@media (max-width:600px) {
+    font-size: 12px;
+}
 `
 const Learnprogram = styled.p`
 font-style: italic;
